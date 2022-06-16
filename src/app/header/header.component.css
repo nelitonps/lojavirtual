@@ -1,0 +1,77 @@
+
+.main-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tabela{
+    display: grid;
+    grid-template-columns: 90px 90px 90px 1fr 10% 10% 10%;
+    list-style-type: none;
+}
+
+.tabela-li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.ic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    color: gray;
+}
+
+.redes{
+    text-decoration: none;
+}
+
+.tabela-li .lia{
+    border-radius: 6px;
+    color: darkblue;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+}
+
+.tabela-li .lia:hover{
+    background-color: blue;
+    color: white;
+}
+
+.cari{
+    color: red;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+
+
+.badge-carrinho{
+    background-color: darkblue;
+    padding: 5px;
+    margin-left: 2px;
+    border-radius: 4px;
+    color: white;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.titulo-loja{
+    color: blue;
+}
+
+.titulo-virtual{
+    color: red;
+}
+

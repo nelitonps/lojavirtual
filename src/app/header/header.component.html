@@ -1,0 +1,39 @@
+<header >
+    <div class="main-header">
+        <h1 class="titulo">
+            <span class="titulo-loja">Loja</span><span class="titulo-virtual"> Virtual</span>
+        </h1>
+        <nav>
+            <ul class="tabela">
+                <li class="tabela-li">
+                    <a href="/produtos" class="lia">Produtos</a>
+                </li>
+                <li class="tabela-li">
+                    <a href="/contato" class="lia">Contato</a>
+                </li>
+                <li class="tabela-li">
+                    <a href="/carrinho" class="lia">Carrinho</a>
+                </li>
+                
+                <li>
+                    <a class="cari">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="badge-carrinho">{{ carrinhoService.obterCarrinho().length }}</span>
+                     </a>
+                </li>
+                <li>
+                    <a href="#" class="redes"><i class="fa-brands fa-facebook-f ic"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="redes"><i class="fa-brands fa-instagram ic"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="redes"><i class="fa-brands fa-linkedin ic"></i></a>
+                </li>
+            </ul>
+        </nav>
+        
+    </div>
+    <app-barra-pesquisa></app-barra-pesquisa>
+    
+</header>
